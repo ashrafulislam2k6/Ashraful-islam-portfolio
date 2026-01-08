@@ -33,7 +33,7 @@ nav{
     max-width:1140px;
     margin: 0px 230px;
     /* margin-left: auto; */
-    border:1px solid black;
+    /* border:1px solid black; */
     display:flex;
     justify-content: space-between; 
     align-items: center;
