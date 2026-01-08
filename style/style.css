@@ -14,6 +14,9 @@
  /* main style  */
 header{
     background-color: #FFF8F3;
+    background:url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 .logo h2{
@@ -28,9 +31,9 @@ header{
 nav{
     width:71%;
     max-width:1140px;
-    margin: 0px auto;
-    margin-left: auto;
-    /* border:1px solid black; */
+    margin: 0px 230px;
+    /* margin-left: auto; */
+    border:1px solid black;
     display:flex;
     justify-content: space-between; 
     align-items: center;
@@ -58,4 +61,50 @@ nav .menu a{
     background-color: #FD6E0A;
     color:white;
     font-weight: bold;
+    cursor:pointer;
+    gap:30px
+}
+   /* hero baner section  */
+
+   #baner{
+    display: flex;
+    /* margin:46px 38px 0 230px; */
+    /* border:1px solid black; */
+    margin:46px 38px 0px 230px;
+    justify-content:space-between;
+    align-items: center;
+   
+
+   }
+#baner .baner-content{
+    max-width: 585px;
+}
+
+#baner .baner-content h2{
+    font-size:45px;
+    font-weight: 600px;
+    color:#474747;
+    margin-bottom: 5px;
+}
+#baner .baner-content h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#baner .baner-content p{
+    font-size: 17px;
+    line-height: 30px;
+    color:#757575;
+    font-weight: 400px;
+    margin-bottom: 30px;
+    
+
+}
+
+#baner .baner-image img{
+    width:584px;
+    vertical-align:middle;
+    
 }
